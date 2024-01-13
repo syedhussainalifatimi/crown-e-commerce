@@ -7,7 +7,7 @@ const MenuItem = ({ title, imageUrl, size }) => {
 
       <div className={styles.backgroundimage}
         style={
-          { backgroundImage: `url(${imageUrl})` }
+          { backgroundImage: `url(images/menuitems/${imageUrl}.png)` }
         } />
 
 
